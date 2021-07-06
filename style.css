@@ -9,15 +9,19 @@ h1{
 }
 section{
     display: flex;
+   
 }
 .half-width{
     width: 50%;
+    padding-left: 5%;
 }
 .half-width img{
-    width:100%  
+    width:80%  
 }
 .link-button{
     text-decoration: none;
-    background-color: salmon;
+    background-image: linear-gradient(salmon,tomato);
     padding: 10px 40px;
+    color: white;
+    border-radius: 20px;
 }
